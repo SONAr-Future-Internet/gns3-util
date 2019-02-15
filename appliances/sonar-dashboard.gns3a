@@ -1,0 +1,18 @@
+{
+    "name": "SONAr Dashboard",
+    "category": "guest",
+    "description": "SONAr is an Architecture designed for Intent-Based Self-Driving Networks. SONAr Dashboard allows you to view network details.",
+    "vendor_name": "MEHAR",
+    "vendor_url": "http://mehar.facom.ufu.br/",
+    "product_name": "SONAr Dashboard",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Maurício Amaral Gonçalves",
+    "maintainer_email": "mauricioamaralg@ufu.br",
+    "symbol": "sonar-dashboard.svg",
+    "docker": {
+        "adapters": 1,
+        "image": "meharsonar/sonar-dashboard:latest",
+        "console_type": "telnet"
+    }
+}
