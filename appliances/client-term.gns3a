@@ -1,0 +1,18 @@
+{
+    "name": "Client Term",
+    "category": "guest",
+    "description": "Client Term is a \"GNS3 Ubuntu Docker Guest\" which is a Debian-based Linux operating system, with Unity as its default desktop environment. It is based on free software and named after the Southern African philosophy of ubuntu (literally, \"human-ness\"), which often is translated as \"humanity towards others\" or \"the belief in a universal bond of sharing that connects all humanity\".",
+    "vendor_name": "MEHAR",
+    "vendor_url": "http://mehar.facom.ufu.br/",
+    "product_name": "Client Term",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Maurício Amaral Gonçalves",
+    "maintainer_email": "mauricioamaralg@ufu.br",
+    "symbol": "client-term.png",
+    "docker": {
+        "adapters": 1,
+        "image": "gns3/ubuntu:xenial",
+        "console_type": "telnet"
+    }
+}

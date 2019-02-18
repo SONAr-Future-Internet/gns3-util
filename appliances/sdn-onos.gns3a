@@ -1,0 +1,19 @@
+{
+    "name": "Controller ONOS",
+    "category": "guest",
+    "description": "The Open Network Operating System (ONOS) is a software defined networking (SDN) OS for service providers that has scalability, high availability, high performance and abstractions to make it easy to create apps and services. The platform is based on a solid architecture and has quickly matured to be feature rich and production ready. The community has grown to include over 50 partners and collaborators that contribute to all aspects of the project including interesting use cases such as CORD",
+    "vendor_name": "Onos",
+    "vendor_url": "http://onosproject.org/",
+    "product_url": "http://onosproject.org/",
+    "documentation_url": "https://wiki.onosproject.org",
+    "product_name": "Onos",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Maurício Amaral Gonçalves",
+    "maintainer_email": "mauricioamaralg@ufu.br",
+    "symbol": "sdn-onos.png",
+    "docker": {
+        "adapters": 1,
+        "image": "onosproject/onos:latest"
+    }
+}

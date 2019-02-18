@@ -1,0 +1,19 @@
+{
+    "name": "Client GUI",
+    "category": "guest",
+    "description": "Client GUI is a \"GNS3 webterm\" which is a debian based networking toolbox.\nIt contains the firefox web browser plus the following utilities: net-tools, iproute2, ping, traceroute, curl, host, iperf3, mtr, socat, ssh client, tcpdump, ab(apache benchmark) and the multicast testing tools msend/mreceive.",
+    "vendor_name": "MEHAR",
+    "vendor_url": "http://mehar.facom.ufu.br/",
+    "product_name": "Client GUI",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Maurício Amaral Gonçalves",
+    "maintainer_email": "mauricioamaralg@ufu.br",
+    "usage": "The /root directory is persistent.",
+    "symbol": "client-gui.png",
+    "docker": {
+        "adapters": 1,
+        "image": "gns3/webterm:latest",
+        "console_type": "vnc"
+    }
+}
