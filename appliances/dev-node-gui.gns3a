@@ -12,7 +12,7 @@
     "symbol": "dev-node-gui.png",
     "docker": {
         "adapters": 1,
-        "image": "meharsonar/dev-node:latest",
+        "image": "meharsonar/sonar-dev-node-gui:latest",
         "console_type": "vnc"
     }
 }
