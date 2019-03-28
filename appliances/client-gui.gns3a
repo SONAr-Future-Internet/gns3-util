@@ -13,7 +13,7 @@
     "symbol": "client-gui.png",
     "docker": {
         "adapters": 1,
-        "image": "gns3/webterm:latest",
+        "image": "meharsonar/client-gui",
         "console_type": "vnc"
     }
 }

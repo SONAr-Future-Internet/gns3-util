@@ -12,7 +12,7 @@
     "symbol": "client-term.png",
     "docker": {
         "adapters": 1,
-        "image": "gns3/ubuntu:xenial",
+        "image": "meharsonar/client-term",
         "console_type": "telnet"
     }
 }
